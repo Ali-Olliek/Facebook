@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "FacebookLogo";
+    src: url("/assets/fonts/klavikaboldbold-webfont.woff");
+}
+
+
+
+
+
+/* ---------Middle Section---------- */
+
 .middle {
     position: absolute;
     top: 150px;
@@ -8,8 +19,6 @@
     flex-direction: row;
 }
 
-
-
 .sign-up-menu {
     border: 1px solid red;
     width:fit-content;
@@ -18,9 +27,14 @@
 }
 
 .facebook {
+    font-family: FacebookLogo;
     border: 1px solid red;
     margin-top: 50px;
     padding: 30px;
+}
+
+.blue-title {
+    color: #4267B2;
 }
 
 @media screen and (max-width:400px) {
