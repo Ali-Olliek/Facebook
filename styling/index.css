@@ -1,0 +1,12 @@
+.sign-up-menu {
+    border: 1px solid red;
+    width:fit-content;
+    padding:30px;
+}
+
+.facebook {
+    border: 1px solid red;
+    width: fit-content;
+    margin-top: 50px;
+    padding: 30px;
+}
