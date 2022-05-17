@@ -22,6 +22,8 @@
     flex-direction: row;
 }
 
+/* Sign Up Menu */
+
 .sign-up-menu {
     width:50%;
     text-align: center;
@@ -41,21 +43,6 @@
     font-size: 20px;
 }
 
-
-.facebook {
-    margin-top: 50px;
-    width: 80%
-}
-
-.facebook h1 {
-    font-size: 64px;
-    font-family: FacebookLogo-bold;
-
-}
-.facebook h2 {
-    font-family: FacebookLogo-normal;
-    font-size: 3rem;
-}
 .blue-title {
     color: #4267B2;
 }
@@ -75,7 +62,49 @@
     border-color: white;
 }
 
+/* Facebook text */
 
+.facebook {
+    margin-top: 50px;
+    width: 80%
+}
+
+.facebook h1 {
+    font-size: 64px;
+    font-family: FacebookLogo-bold;
+
+}
+.facebook h2 {
+    font-family: FacebookLogo-normal;
+    font-size: 3rem;
+}
+
+/* Footer */
+
+footer {
+    position:fixed;
+    bottom:0px;
+    height: 400px;
+    padding-inline:50px;
+    right: 20%;
+    left: 20%;
+    color: rgba(1, 1, 1, 0.7);
+}
+
+footer > ul {
+    display:flex;
+    list-style: none;
+}
+
+footer li {
+    padding: 10px;
+    display:inline;
+    cursor: pointer;
+}
+
+.meta {
+    padding-left: 50px;
+}
 /* Utilities */
 
 .bold-black-link {
