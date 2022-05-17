@@ -1,8 +1,11 @@
 @font-face {
-    font-family: "FacebookLogo";
+    font-family: "FacebookLogo-bold";
     src: url("/assets/fonts/klavikaboldbold-webfont.woff");
 }
-
+@font-face {
+    font-family:"FacebookLogo-normal";
+    src: url("/assets/fonts/klavikalight-plain-webfont.woff");
+}
 
 
 
@@ -11,19 +14,17 @@
 
 .middle {
     position: absolute;
-    top: 150px;
+    top: 300px;
     bottom:300px;
-    right: 25%;
-    left:25%;
+    right: 20%;
+    left:20%;
     display: flex;
     flex-direction: row;
 }
 
 .sign-up-menu {
-    width:100%;
-    padding:30px;
+    width:50%;
     text-align: center;
-
 }
 
 .sign-up-box {
@@ -37,15 +38,24 @@
     border-color: rgba(1,1,1,0.1);
     padding: 5px;
     color: rgba(1,1,1,0.8);
+    font-size: 20px;
 }
 
 
 .facebook {
-    font-family: FacebookLogo;
     margin-top: 50px;
-    padding: 30px;
+    width: 80%
 }
 
+.facebook h1 {
+    font-size: 64px;
+    font-family: FacebookLogo-bold;
+
+}
+.facebook h2 {
+    font-family: FacebookLogo-normal;
+    font-size: 3rem;
+}
 .blue-title {
     color: #4267B2;
 }
@@ -67,18 +77,24 @@
 
 
 /* Utilities */
+
 .bold-black-link {
     font-weight: bold;
+    cursor: pointer;
+    font-size:18px;
 }
 
 .button {
+    font-size: 20px;
     margin: 20px;
-    padding-block: 5px;
+    padding-block: 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .blue-link {
     color: #4267B2;
+    cursor: pointer;
 }
 
 .line {
