@@ -20,26 +20,28 @@
 }
 
 .sign-up-menu {
-    border: 1px solid rgba(1,1,1,0.1);
-    width:fit-content;
+    width:100%;
     padding:30px;
     text-align: center;
-    box-shadow: 5px 5px 5px rgba(1,1,1,0.1);
-    border-radius: 10px;
+
+}
+
+.sign-up-box {
+    border: 1px solid rgba(1,1,1,0.1);
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);
 }
 
 .input-box {
-    width: 100%;
+    width: 80%;
     height: 30px;
     border-color: rgba(1,1,1,0.1);
     padding: 5px;
-    color: rgba(1,1,1,0.8)
+    color: rgba(1,1,1,0.8);
 }
 
 
 .facebook {
     font-family: FacebookLogo;
-    border: 1px solid red;
     margin-top: 50px;
     padding: 30px;
 }
@@ -48,10 +50,37 @@
     color: #4267B2;
 }
 
+.blue-button {
+    width: 80%;
+    background-color: #1877f2;
+    color: white;
+    border-color: white;
+}
+
+.green-button {
+    width: 60%;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+
 /* Utilities */
+.bold-black-link {
+    font-weight: bold;
+}
 
 .button {
     margin: 20px;
     padding-block: 5px;
     border-radius: 5px;
+}
+
+.blue-link {
+    color: #4267B2;
+}
+
+.line {
+    border-top: 1px solid rgba(1,1,1,0.1);
 }
