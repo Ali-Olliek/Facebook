@@ -7,7 +7,11 @@
     src: url("/assets/fonts/klavikalight-plain-webfont.woff");
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 /* ---------Middle Section---------- */
@@ -33,11 +37,12 @@
 .sign-up-box {
     border: 1px solid rgba(1,1,1,0.1);
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);
+    margin-bottom: 20px;
 }
 
 .input-box {
     width: 80%;
-    height: 30px;
+    height: 50px;
     border-color: rgba(1,1,1,0.1);
     padding: 5px;
     color: rgba(1,1,1,0.8);
@@ -59,6 +64,7 @@
     font-weight: bold;
     border-color: white;
 }
+
 
 /* Facebook text */
 
@@ -83,7 +89,7 @@
 footer {
     position:fixed;
     bottom:0px;
-    height: 400px;
+    height: 25vh;
     padding-inline:50px;
     right: 20%;
     left: 20%;
@@ -102,7 +108,7 @@ footer li {
 }
 
 .meta {
-    padding-left: 50px;
+    padding-left: 10px;
 }
 /* Utilities */
 
@@ -127,19 +133,47 @@ footer li {
 
 .line {
     border-top: 1px solid rgba(1,1,1,0.1);
+    margin-block: 20px;
 }
 
-@media screen and (min-width:1100px) {
-    middle {
+
+@media (max-width:1100px) {
+    .middle {
+        position: absolute;
+        top: 0;
+        flex: 1;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .sign-up-menu {
+        width: 100%;
     }
 
-    middle > div {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    .facebook h1 {
+        font-size: 40px;
     }
-
+    .facebook h2 {
+        font-size: 30px;
+    }
+    .list {
+        width: 120%;
+        padding: 0;
+    }
+    footer {
+        padding-inline: 0;
+        min-width: 50%;
+    }
+    .lang-list {
+        font-size: 10px;
+        display: inline;
+        padding: 0;
+    }
+    .services-list {
+        height: fit-content;
+    }
+    .meta {
+        padding: 0;
+    }
 }
