@@ -20,6 +20,7 @@
     left:20%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 /* Sign Up Menu */
@@ -43,9 +44,6 @@
     font-size: 20px;
 }
 
-.blue-title {
-    color: #4267B2;
-}
 
 .blue-button {
     width: 80%;
@@ -70,6 +68,7 @@
 }
 
 .facebook h1 {
+    color: #1877f2;
     font-size: 64px;
     font-family: FacebookLogo-bold;
 
@@ -128,4 +127,19 @@ footer li {
 
 .line {
     border-top: 1px solid rgba(1,1,1,0.1);
+}
+
+@media screen and (min-width:1100px) {
+    middle {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    middle > div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
