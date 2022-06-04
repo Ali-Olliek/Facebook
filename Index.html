@@ -24,12 +24,12 @@
                 <div class="sign-up-box">
                     <form>
                         <br>
-                        <input class="input-box" type="text" placeholder="Email address or phone number" value="">
+                        <input id="username" class="input-box" type="text" placeholder="Email address or phone number">
                         <br>
                         <br>
-                        <input class="input-box" type="text" placeholder="Password" value="">
+                        <input id="pwd" class="input-box" type="password" placeholder="Password">
                         <br>
-                        <button class="button blue-button">Log In</button>
+                        <button class="button blue-button" id="login">Log In</button>
                         <h4 class="blue-link">Forgotten password?</h4>
                         <!-- https://www.w3schools.com/html/html_forms.asp -->
                     </form>
@@ -40,7 +40,7 @@
                         <button class="button green-button">Create New Account</button>
                     </div>
                 </div>
-                    <p>
+                    <p class="for-celeb">
                         <a class="bold-black-link">
                             Create a Page
                         </a>
@@ -106,19 +106,7 @@
                 <p class="meta">Meta © 2022</p>
             </div>
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="myscripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
