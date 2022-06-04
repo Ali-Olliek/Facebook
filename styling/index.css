@@ -26,14 +26,14 @@
     justify-content: space-around;
 }
 
-/* Sign Up Menu */
+/* Log in Menu */
 
-.sign-up-menu {
+.log-in-menu {
     width:50%;
     text-align: center;
 }
 
-.sign-up-box {
+.log-in-box {
     border: 1px solid rgba(1,1,1,0.1);
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);
     margin-bottom: 20px;
@@ -151,7 +151,7 @@ footer li {
         flex-direction: row;
         justify-content: center;
     }
-    .sign-up-menu {
+    .log-in-menu {
         width: 80%;
     }
     .input-box{
