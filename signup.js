@@ -10,21 +10,20 @@ sign_up_btn.addEventListener("click", function(event){
     data.append("username", username);
     data.append("password", password);
 
-    let url = "localhost/facebook/signup.php";
+    let url = "http://localhost/facebook/signup.php";
 
     axios({
-        
-        method: 'post',
-        url: url,
-        data: data
-    })
-    .then(function (response){
-        console.log(response);
-        if (response == "success!") {
+      method: "POST",
+      url: url,
+      data:data,
+      
+    }).then(function (response) {
+      console.log(response);
+      if (response.data.success === true) {
         document.body.style.backgroundColor = "lightgreen";
-        } else {
+      } else {
         console.log("please try again :(");
-        }
+      }
     });
 })  
 
